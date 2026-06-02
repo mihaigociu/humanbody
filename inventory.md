@@ -30,6 +30,8 @@ For every entry, fill in:
 These are the textbook examples: regulate a scalar, reject disturbances, hold setpoint.
 
 ### I.1 Glucose–insulin regulation
+> **Deep dive:** [`explainers/01_glucose_insulin.md`](explainers/01_glucose_insulin.md) · sim: [`sims/01_glucose_insulin.py`](sims/01_glucose_insulin.py)
+
 - **Plant:** blood glucose pool, with hepatic glucose production and peripheral uptake.
 - **Controlled variable:** plasma glucose concentration (~5 mmol/L fasting).
 - **Setpoint:** ~4.5–5.5 mmol/L; adjusted by counter-regulatory hormones.

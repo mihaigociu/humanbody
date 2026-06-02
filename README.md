@@ -24,4 +24,10 @@ pip install -r requirements.txt   # once we have sim deps
 
 ## Status
 
-Kicked off 2026-06-02. Current milestone: build the inventory/map. No deep dives or simulations yet.
+Kicked off 2026-06-02.
+
+**Completed deep dives:**
+
+1. [Glucose–insulin control loop](explainers/01_glucose_insulin.md) — paired with [`sims/01_glucose_insulin.py`](sims/01_glucose_insulin.py). Covers the Bergman minimal model, β-cell as PD controller, linearized transfer function, failure modes as control-system pathologies, and PID artificial-pancreas control with realistic CGM and subcutaneous insulin transport delays.
+
+**Next candidates:** respiratory CO₂ control (Cheyne–Stokes instability), baroreceptor reflex + RAAS cascade, HPG axis sign-switching feedback, cerebellum as forward model.
